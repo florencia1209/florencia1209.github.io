@@ -1,0 +1,17 @@
+.imgfondo {
+    background-image: url(./hawaii.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-color: rgb(120, 108, 108);
+    background-blend-mode: soft-light;
+    margin-top: 5em;
+}
+.imghonolulu{background-image: url(./honolulu.jpg);
+    background-position: center;
+    
+    background-size: cover;
+    height: 80vh;
+    
+    background-blend-mode: soft-light;
+    margin-top: 5em;}
