@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
                     <ul class="navbar-nav  ">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+                            <a class="nav-link active" aria-current="page" href="conferencia">La Conferencia</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="oradores">Los oradores</a>
@@ -57,7 +57,7 @@
     </nav>
 
     <!--Main principal-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="conferencia">
         <div class="row imgfondo align-items-center flex-row-reverse ">
             <div class="col-sm-6 text-white text-end m-5">
                 <h1>Conf Bs As</h1>
@@ -85,7 +85,7 @@
 
         </div>
 
-        <div class="row row-ms-cols-1 row-cols-md-3 g-4 px-2">
+        <div class="row row-ms-cols-1 row-cols-md-3 g-2 ">
             <div class="col ">
                 <div class="card" style="width: 18rem;">
                     <img src="./steve.jpg" class="card-img-top" alt="...">
@@ -140,7 +140,7 @@
             </div>
         </div>
 
-        <div class="container-fluid mt-3">
+        <div class="container-fluid mt-3" id="lugar">
 
 
             <div class="row g-0">
@@ -159,7 +159,7 @@
         </div>
 
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="Conviertete">
 
 
             <div class="row ">
@@ -171,40 +171,8 @@
                 </div>
 
             </div>
-            <!-- <div class="row">
-        
-            <legend> <h1>Formulario de calidad</h1></legend>
-
-            <div class="col-3">
-                <p>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nomb" placeholder="Nombre Completo" required>
-            </p>
-            </div>
-            
-            <div class="col-3 offset-1">
-                <p>
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" placeholder="Apellidos" size="50px" required>
-            </p>
-            </div>
-
-    </div>
-        
-    <div class="row">
-        <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-    </div>
-      <div class="row">
-        <p></p>
-      </div>      
-
-    </div>
-        -->
-            <form action="">
-                <div class="input-group mb-3">
+         <!-- <form action="">
+                <div class="input-group mb-3 " >
                     <input type="text" class="form-control" placeholder="Nombre" aria-label="Username">
 
                     <input type="text" class="form-control" placeholder="Apellido" aria-label="Server">
@@ -218,11 +186,34 @@
                 </div>
                 <button type="button" class="btn btn-success text-center align-bottom-center">Enviar</button>
 
-            </form>
-        </div>
+            </form> -->
+ <div class="container-fluid" id="Contactanos">
+    
+
+            <div class="row">
+                <div class="col-3 offset-3">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col-3 ">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+              </div>
+
+            <div class="row">
+                <div class="col-6 offset-3">
+             
+               <div class="mb-3">
+                <label for="exampleFormControlTextarea1 " class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1"
+                    placeholder="Sobre que quieres hablar" rows="3"></textarea>
+                <p>Recuerda incluir un titulo para su charla</p>
+               </div>
+               </div>
+            </div>
+</div>        
 
 
-        <div class="row" style="">
+        <div class="row" >
 
             <nav class="navbar navbar-expand-lg navbar-light  p-2 flex-fill justify-content-center"
                 style="background-color:rgb(14, 84, 117)" ;>
